@@ -38,6 +38,7 @@ require "#{File.dirname(__FILE__)}/redmine_custom_workflows/patches/models/membe
 require "#{File.dirname(__FILE__)}/redmine_custom_workflows/patches/models/version_patch"
 require "#{File.dirname(__FILE__)}/redmine_custom_workflows/patches/models/wiki_content_patch"
 require "#{File.dirname(__FILE__)}/redmine_custom_workflows/patches/models/wiki_page_patch"
+require "#{File.dirname(__FILE__)}/redmine_custom_workflows/patches/models/custom_entity_patch"
 
 # Controllers
 require "#{File.dirname(__FILE__)}/redmine_custom_workflows/patches/controllers/issues_controller_patch"
@@ -50,6 +51,7 @@ require "#{File.dirname(__FILE__)}/redmine_custom_workflows/patches/controllers/
 require "#{File.dirname(__FILE__)}/redmine_custom_workflows/patches/controllers/members_controller_patch"
 require "#{File.dirname(__FILE__)}/redmine_custom_workflows/patches/controllers/versions_controller_patch"
 require "#{File.dirname(__FILE__)}/redmine_custom_workflows/patches/controllers/wiki_controller_patch"
+require "#{File.dirname(__FILE__)}/redmine_custom_workflows/patches/controllers/custom_entities_controller_patch"
 
 # Helpers
 require "#{File.dirname(__FILE__)}/redmine_custom_workflows/patches/helpers/projects_helper_patch"
